@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43BFC9C29D6D8CC0085A9FC /* Clickett_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFC9B29D6D8CC0085A9FC /* Clickett_macOSApp.swift */; };
+		F43BFC9E29D6D8CC0085A9FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFC9D29D6D8CC0085A9FC /* ContentView.swift */; };
+		F43BFCA029D6D8CD0085A9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43BFC9F29D6D8CD0085A9FC /* Assets.xcassets */; };
+		F43BFCA329D6D8CD0085A9FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43BFCA229D6D8CD0085A9FC /* Preview Assets.xcassets */; };
+		F43BFCA529D6D8CD0085A9FC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFCA429D6D8CD0085A9FC /* Persistence.swift */; };
+		F43BFCA829D6D8CD0085A9FC /* Clickett_macOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F43BFCA629D6D8CD0085A9FC /* Clickett_macOS.xcdatamodeld */; };
+		F43BFCB329D6D8CD0085A9FC /* Clickett_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFCB229D6D8CD0085A9FC /* Clickett_macOSTests.swift */; };
+		F43BFCBD29D6D8CD0085A9FC /* Clickett_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFCBC29D6D8CD0085A9FC /* Clickett_macOSUITests.swift */; };
+		F43BFCBF29D6D8CD0085A9FC /* Clickett_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BFCBE29D6D8CD0085A9FC /* Clickett_macOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43BFCAF29D6D8CD0085A9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43BFC9029D6D8CC0085A9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43BFC9729D6D8CC0085A9FC;
+			remoteInfo = "Clickett-macOS";
+		};
+		F43BFCB929D6D8CD0085A9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43BFC9029D6D8CC0085A9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43BFC9729D6D8CC0085A9FC;
+			remoteInfo = "Clickett-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43BFC9829D6D8CC0085A9FC /* Clickett-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clickett-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43BFC9B29D6D8CC0085A9FC /* Clickett_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clickett_macOSApp.swift; sourceTree = "<group>"; };
+		F43BFC9D29D6D8CC0085A9FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F43BFC9F29D6D8CD0085A9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43BFCA229D6D8CD0085A9FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F43BFCA429D6D8CD0085A9FC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F43BFCA729D6D8CD0085A9FC /* Clickett_macOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clickett_macOS.xcdatamodel; sourceTree = "<group>"; };
+		F43BFCA929D6D8CD0085A9FC /* Clickett_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clickett_macOS.entitlements; sourceTree = "<group>"; };
+		F43BFCAE29D6D8CD0085A9FC /* Clickett-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clickett-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43BFCB229D6D8CD0085A9FC /* Clickett_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clickett_macOSTests.swift; sourceTree = "<group>"; };
+		F43BFCB829D6D8CD0085A9FC /* Clickett-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clickett-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43BFCBC29D6D8CD0085A9FC /* Clickett_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clickett_macOSUITests.swift; sourceTree = "<group>"; };
+		F43BFCBE29D6D8CD0085A9FC /* Clickett_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clickett_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43BFC9529D6D8CC0085A9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCAB29D6D8CD0085A9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCB529D6D8CD0085A9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43BFC8F29D6D8CC0085A9FC = {
+			isa = PBXGroup;
+			children = (
+				F43BFC9A29D6D8CC0085A9FC /* Clickett-macOS */,
+				F43BFCB129D6D8CD0085A9FC /* Clickett-macOSTests */,
+				F43BFCBB29D6D8CD0085A9FC /* Clickett-macOSUITests */,
+				F43BFC9929D6D8CC0085A9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43BFC9929D6D8CC0085A9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43BFC9829D6D8CC0085A9FC /* Clickett-macOS.app */,
+				F43BFCAE29D6D8CD0085A9FC /* Clickett-macOSTests.xctest */,
+				F43BFCB829D6D8CD0085A9FC /* Clickett-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43BFC9A29D6D8CC0085A9FC /* Clickett-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F43BFC9B29D6D8CC0085A9FC /* Clickett_macOSApp.swift */,
+				F43BFC9D29D6D8CC0085A9FC /* ContentView.swift */,
+				F43BFC9F29D6D8CD0085A9FC /* Assets.xcassets */,
+				F43BFCA429D6D8CD0085A9FC /* Persistence.swift */,
+				F43BFCA929D6D8CD0085A9FC /* Clickett_macOS.entitlements */,
+				F43BFCA629D6D8CD0085A9FC /* Clickett_macOS.xcdatamodeld */,
+				F43BFCA129D6D8CD0085A9FC /* Preview Content */,
+			);
+			path = "Clickett-macOS";
+			sourceTree = "<group>";
+		};
+		F43BFCA129D6D8CD0085A9FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F43BFCA229D6D8CD0085A9FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F43BFCB129D6D8CD0085A9FC /* Clickett-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43BFCB229D6D8CD0085A9FC /* Clickett_macOSTests.swift */,
+			);
+			path = "Clickett-macOSTests";
+			sourceTree = "<group>";
+		};
+		F43BFCBB29D6D8CD0085A9FC /* Clickett-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F43BFCBC29D6D8CD0085A9FC /* Clickett_macOSUITests.swift */,
+				F43BFCBE29D6D8CD0085A9FC /* Clickett_macOSUITestsLaunchTests.swift */,
+			);
+			path = "Clickett-macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43BFC9729D6D8CC0085A9FC /* Clickett-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43BFCC229D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOS" */;
+			buildPhases = (
+				F43BFC9429D6D8CC0085A9FC /* Sources */,
+				F43BFC9529D6D8CC0085A9FC /* Frameworks */,
+				F43BFC9629D6D8CC0085A9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clickett-macOS";
+			productName = "Clickett-macOS";
+			productReference = F43BFC9829D6D8CC0085A9FC /* Clickett-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43BFCAD29D6D8CD0085A9FC /* Clickett-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43BFCC529D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOSTests" */;
+			buildPhases = (
+				F43BFCAA29D6D8CD0085A9FC /* Sources */,
+				F43BFCAB29D6D8CD0085A9FC /* Frameworks */,
+				F43BFCAC29D6D8CD0085A9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43BFCB029D6D8CD0085A9FC /* PBXTargetDependency */,
+			);
+			name = "Clickett-macOSTests";
+			productName = "Clickett-macOSTests";
+			productReference = F43BFCAE29D6D8CD0085A9FC /* Clickett-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F43BFCB729D6D8CD0085A9FC /* Clickett-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43BFCC829D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOSUITests" */;
+			buildPhases = (
+				F43BFCB429D6D8CD0085A9FC /* Sources */,
+				F43BFCB529D6D8CD0085A9FC /* Frameworks */,
+				F43BFCB629D6D8CD0085A9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43BFCBA29D6D8CD0085A9FC /* PBXTargetDependency */,
+			);
+			name = "Clickett-macOSUITests";
+			productName = "Clickett-macOSUITests";
+			productReference = F43BFCB829D6D8CD0085A9FC /* Clickett-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43BFC9029D6D8CC0085A9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F43BFC9729D6D8CC0085A9FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F43BFCAD29D6D8CD0085A9FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F43BFC9729D6D8CC0085A9FC;
+					};
+					F43BFCB729D6D8CD0085A9FC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F43BFC9729D6D8CC0085A9FC;
+					};
+				};
+			};
+			buildConfigurationList = F43BFC9329D6D8CC0085A9FC /* Build configuration list for PBXProject "Clickett-macOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43BFC8F29D6D8CC0085A9FC;
+			productRefGroup = F43BFC9929D6D8CC0085A9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43BFC9729D6D8CC0085A9FC /* Clickett-macOS */,
+				F43BFCAD29D6D8CD0085A9FC /* Clickett-macOSTests */,
+				F43BFCB729D6D8CD0085A9FC /* Clickett-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43BFC9629D6D8CC0085A9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43BFCA329D6D8CD0085A9FC /* Preview Assets.xcassets in Resources */,
+				F43BFCA029D6D8CD0085A9FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCAC29D6D8CD0085A9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCB629D6D8CD0085A9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43BFC9429D6D8CC0085A9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43BFCA829D6D8CD0085A9FC /* Clickett_macOS.xcdatamodeld in Sources */,
+				F43BFCA529D6D8CD0085A9FC /* Persistence.swift in Sources */,
+				F43BFC9E29D6D8CC0085A9FC /* ContentView.swift in Sources */,
+				F43BFC9C29D6D8CC0085A9FC /* Clickett_macOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCAA29D6D8CD0085A9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43BFCB329D6D8CD0085A9FC /* Clickett_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43BFCB429D6D8CD0085A9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43BFCBD29D6D8CD0085A9FC /* Clickett_macOSUITests.swift in Sources */,
+				F43BFCBF29D6D8CD0085A9FC /* Clickett_macOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43BFCB029D6D8CD0085A9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43BFC9729D6D8CC0085A9FC /* Clickett-macOS */;
+			targetProxy = F43BFCAF29D6D8CD0085A9FC /* PBXContainerItemProxy */;
+		};
+		F43BFCBA29D6D8CD0085A9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43BFC9729D6D8CC0085A9FC /* Clickett-macOS */;
+			targetProxy = F43BFCB929D6D8CD0085A9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F43BFCC029D6D8CD0085A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F43BFCC129D6D8CD0085A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F43BFCC329D6D8CD0085A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Clickett-macOS/Clickett_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clickett-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F43BFCC429D6D8CD0085A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Clickett-macOS/Clickett_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clickett-macOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F43BFCC629D6D8CD0085A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clickett-macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clickett-macOS";
+			};
+			name = Debug;
+		};
+		F43BFCC729D6D8CD0085A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clickett-macOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clickett-macOS";
+			};
+			name = Release;
+		};
+		F43BFCC929D6D8CD0085A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Clickett-macOS";
+			};
+			name = Debug;
+		};
+		F43BFCCA29D6D8CD0085A9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KKZ9Y2Z82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LPQvist.Clickett-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Clickett-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43BFC9329D6D8CC0085A9FC /* Build configuration list for PBXProject "Clickett-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43BFCC029D6D8CD0085A9FC /* Debug */,
+				F43BFCC129D6D8CD0085A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43BFCC229D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43BFCC329D6D8CD0085A9FC /* Debug */,
+				F43BFCC429D6D8CD0085A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43BFCC529D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43BFCC629D6D8CD0085A9FC /* Debug */,
+				F43BFCC729D6D8CD0085A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43BFCC829D6D8CD0085A9FC /* Build configuration list for PBXNativeTarget "Clickett-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43BFCC929D6D8CD0085A9FC /* Debug */,
+				F43BFCCA29D6D8CD0085A9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F43BFCA629D6D8CD0085A9FC /* Clickett_macOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F43BFCA729D6D8CD0085A9FC /* Clickett_macOS.xcdatamodel */,
+			);
+			currentVersion = F43BFCA729D6D8CD0085A9FC /* Clickett_macOS.xcdatamodel */;
+			path = Clickett_macOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F43BFC9029D6D8CC0085A9FC /* Project object */;
+}
